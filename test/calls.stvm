@@ -1,7 +1,0 @@
-mov %eax #5
-call @square
-hlt
-
-square:
-	mul %eax %eax
-	ret
